@@ -326,6 +326,8 @@ Run Cell 1 of the notebook. All packages will be installed automatically.
 - Load the saved FAISS index on startup instead of rebuilding it every run
 - Use Re-Ranking for Improving Retrival Relevency/Accuracy.
 - Add a CSV export button to the GUI
+- Hybrid search (BM25 + FAISS) — better recall on exact part names
 - Increase `k` to 5–6 for more complete table coverage, with a token budget check
 - Add an OCR fallback for scanned PDFs using `pytesseract`
 - Replace the Pydantic models as documentation-only with actual `.with_structured_output()` enforcement once Groq's support stabilizes
+- Query routing to specialized prompts — better accuracy on non-torque queries
