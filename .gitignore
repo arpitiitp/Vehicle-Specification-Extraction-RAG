@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Generated vector index (large binary files, rebuild locally)
+faiss_db_index/
+
+# Source PDF (large file, not needed in repo)
+sample-service-manual.pdf
+
+
+# Python / Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
